@@ -44,3 +44,32 @@ const myFunction = function(){
 
 console.log(typeof myObj);
 console.log(typeof myFunction)
+
+
+//*********************************************
+
+//Stack(Primitive),Heap(Non-Primitive)
+//copy             //reference
+
+
+//primitive
+
+let myYoutubename = "rishitaranadotcom"
+ let anotherName = myYoutubename;
+ anotherName = "chaiorritu"
+
+ console.log(myYoutubename)
+ console.log(anotherName)
+
+
+ //non-primitive
+
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+ }
+
+ let userTwo = userOne
+ userTwo.email = "abc@gmail.com"
+ console.log(userOne.email)
+console.log(userTwo.email)
