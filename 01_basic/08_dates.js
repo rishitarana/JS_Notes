@@ -12,5 +12,5 @@ console.log(typeof myDate)
 // let myCreatedDate = new Date(2024,11,13)
 // console.log(myCreatedDate.toDateString())
 
-let myCreatedDate = new Date("2024-01-14")
+let myCreatedDate = new Date("2025-01-01")
 console.log(myCreatedDate.toLocaleString())

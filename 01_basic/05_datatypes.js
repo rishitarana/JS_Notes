@@ -31,6 +31,7 @@ Any changes made inside the function are actually reflected in the actual parame
 */
 
 const singers= ["arijit","mohit","jubin"];
+
 //everything inside curly braces is object
 let myObj = {
     name: "Rishita",

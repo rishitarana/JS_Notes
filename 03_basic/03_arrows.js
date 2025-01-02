@@ -12,7 +12,7 @@ const user = {
     }
 
 }
-// user.welcomeMess()
+user.welcomeMess()
 // user.username = "sam" //context changed
 // user.welcomeMess()
 

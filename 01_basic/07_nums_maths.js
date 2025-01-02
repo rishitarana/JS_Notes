@@ -1,28 +1,27 @@
-/*
-
-const score = 400
-console.log(score)
 
 
-//defining datatype
-
-const balance = new Number(100)
-console.log(balance)
+// const score = 400
+// console.log(score)
 
 
-console.log(balance.toString().length)
-console.log(balance.toFixed(3))
+// //defining datatype
 
-const otherNum= 123.8966
-console.log(otherNum.toPrecision(3))
+// const balance = new Number(100)
+// console.log(balance)
 
-const otherNumb= 1123.8966
-console.log(otherNumb.toPrecision(3))
 
-const count = 10000000
-console.log(count.toLocaleString('en-IN'))
+// console.log(balance.toString().length)
+// console.log(balance.toFixed(3))
 
-*/
+// const otherNum= 123.8966
+// console.log(otherNum.toPrecision(3))
+
+// const otherNumb= 1123.8966
+// console.log(otherNumb.toPrecision(3))
+
+// const count = 10000000
+// console.log(count.toLocaleString('en-IN'))
+
 
 /////mathsss/////
 

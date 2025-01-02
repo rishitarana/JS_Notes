@@ -21,8 +21,8 @@ console.log(fruit.concat(color,cars))
 //copyWithin()
 
 const vehicle= ["maruti","ford","innova","bike","scooty"]
-// console.log(vehicle.copyWithin(1,0))
-// console.log(vehicle.copyWithin(2,0,2))
+console.log(vehicle.copyWithin(1,0))
+console.log(vehicle.copyWithin(2,0,2))
 //[ 'maruti', 'ford', 'maruti', 'ford' ]
 
 //entries

@@ -17,7 +17,7 @@ console.log(undefined > 0)
 console.log(undefined==0)
 console.log(undefined>=0)
 
-//===
+//=== //datatype check
 
 console.log("2"===2)
 console.log(2===2)  //datatype check

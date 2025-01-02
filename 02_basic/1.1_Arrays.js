@@ -6,10 +6,15 @@
 //deep copies
 
 //Number type
+
+
 const myArr=[1,2,3,4,5]
 
 //String Type
+
 const myHeroes = ["ranbir","raj"]
+
+
 // console.log(myHeroes[0])
 
 //Array Methods
@@ -47,8 +52,8 @@ const avengers = ["iron","spider","thor","amer"]
 const dc= ["flash","super","bat"]
 
 
-// avengers.push(dc)
-// console.log(avengers)
+avengers.push(dc)
+console.log(avengers)
 // console.log(avengers[4][1])
 
 //concat - join
