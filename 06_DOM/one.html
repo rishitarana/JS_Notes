@@ -23,7 +23,7 @@
     <div>
         <h1 id ="title" class="heading">Learn Javascript</h1>
         <p id = "para">This is my first day of 2025.<span style="display: none;">I am Excited.</span></p>
-        <ul>
+    
             <!-- ctrl+alt - cmd  -->
             <!-- it gives HTMLCollection in which for each does not exist-->
 
@@ -35,6 +35,32 @@
             HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
              -->
 
+            <!-- 
+             we need to convert tempClassList to array
+
+             we use:
+
+             Array.from(tempClassList)
+
+             it gives us map,foreach()
+
+
+             how?
+
+                const myConvertedArray = Array.from(tempClassList)
+                undefined
+
+                myConvertedArray
+                (4) [li.list-item, li.list-item, li.list-item, li.list-item]
+
+                myConvertedArray.forEach(function (li) {
+                    li.style.color= 'yellow'
+    
+                })
+                undefined
+
+              -->
+        <ul>
             <li class = "list-item">First</li>
             <li class = "list-item">Second</li>
             <li class = "list-item">Third</li>
