@@ -11,20 +11,76 @@
         .bg-black{
             background-color: black;
             color: white;
-            text-align: center;
-            padding: 250px;
+          
+             
         }
     </style>
 
 </head>
 
-<body class="bg-pink">
+<body class="bg-black">
 
     <div>
         <h1 id ="title" class="heading">Learn Javascript</h1>
-        <p>This is my first day of 2025.</p>
+        <p id = "para">This is my first day of 2025.<span style="display: none;">I am Excited.</span></p>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ui>
     </div>
     
+<!-- 
+
+    para.innerContent - display all content ignore style properties like span
+    para.innerText - respect style properties and shows only desired text
+    para.innerHTML - it supports HTML tags
+
+    Query selector
+    document.getElementById
+    document.getElementByClassName
+    document.querySelector('h1') //only first heading
+    document.querySelector('#heading')
+    document.querySelector('.title') 
+    document.querySelector('ul')
+    const myul = document.querySelector('ul')
+    const turnGreen = myul.querySelector('li')
+    turnGreen.style.backgroundColor = "green"
+    turnGreen.style.apdding = "10px"
+    turnGreen.innerText = "five"
+
+
+    
+
+-->
+    
+<!-- 
+document.querySelectorAll('li')
+NodeList(3) [li, li, li]
+
+const tempLiList = document.querySelectorAll('li')
+undefined
+
+tempLiList[0].style.color='green'
+'green'
+
+const myH1 = document.querySelectorAll('h1')
+undefined
+
+myH1
+NodeList [h1#title.heading]
+
+myH1[0].style.color = 'yellow'
+'yellow'
+
+tempLiList.forEach(function(l){
+    l.style.backgroundColor ='green'
+})
+undefined
+
+tempLiList[0].style.color = 'white'
+'white' -->
+
 </body>
 
 </html>
