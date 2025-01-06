@@ -19,8 +19,8 @@
 // const otherNumb= 1123.8966
 // console.log(otherNumb.toPrecision(3))
 
-// const count = 10000000
-// console.log(count.toLocaleString('en-IN'))
+const count = 10000000
+console.log(count.toLocaleString('en-IN'))
 
 
 /////mathsss/////
