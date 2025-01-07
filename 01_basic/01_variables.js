@@ -4,7 +4,7 @@ var accountPass = "abcd"
 accountCity= "Jaipur"
 let accountState;
 
-//accountId = 98765
+accountId = 98765
 //var - scope problem
 
 /*
