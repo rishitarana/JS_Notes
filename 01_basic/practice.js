@@ -1,77 +1,77 @@
 // wish(after)
 // evening(noon)
 
-function wish(today){
-    console.log("Good Morning")
-    today()
-}
+// function wish(today){
+//     console.log("Good Morning")
+//     today()
+// }
 
-function after(day){
-    console.log("Good afternoon")
-}
+// function after(day){
+//     console.log("Good afternoon")
+// }
 
-function evening(wishes){
-    console.log("Good evening")
-    wishes()
-}
+// function evening(wishes){
+//     console.log("Good evening")
+//     wishes()
+// }
 
-function noon(at){
-    console.log("Good Night")
-}
-
-
-function add(a,b){
-    console.log(10+20)
-}
-
-function sub(a,b){
-    console.log(20-10)
-}
-
-setTimeout(add,1*1000)
-setTimeout(sub,2*1000)
+// function noon(at){
+//     console.log("Good Night")
+// }
 
 
-function tv(callback){
-    setTimeout(()=> {
-        console.log("let's watch tv")
-        callback()
-    },1*1000)
-}
+// function add(a,b){
+//     console.log(10+20)
+// }
+
+// function sub(a,b){
+//     console.log(20-10)
+// }
+
+// setTimeout(add,1*1000)
+// setTimeout(sub,2*1000)
 
 
-function juice(callback){
-    setTimeout(()=> {
-        console.log("let's drink juice")
-        callback()
-    },3*1000)
-}
+// function tv(callback){
+//     setTimeout(()=> {
+//         console.log("let's watch tv")
+//         callback()
+//     },1*1000)
+// }
 
 
-function workout(callback){
-    setTimeout(()=> {
-        console.log("let's exercise")
-        callback()
-    },4*1000)
-}
+// function juice(callback){
+//     setTimeout(()=> {
+//         console.log("let's drink juice")
+//         callback()
+//     },3*1000)
+// }
 
 
-function sleep(callback){
-    setTimeout(()=> {
-        console.log("let's sleep")
-        callback()
-    },5*1000)
-}
+// function workout(callback){
+//     setTimeout(()=> {
+//         console.log("let's exercise")
+//         callback()
+//     },4*1000)
+// }
 
-tv(()=>{
-    juice(()=>{
-        workout(()=>{
-            sleep(()=>{
-              console.log("you are completed")  
-            })
-        })
-    })
-})
+
+// function sleep(callback){
+//     setTimeout(()=> {
+//         console.log("let's sleep")
+//         callback()
+//     },5*1000)
+// }
+
+// tv(()=>{
+//     juice(()=>{
+//         workout(()=>{
+//             sleep(()=>{
+//               console.log("you are completed")  
+//             })
+//         })
+//     })
+// })
 
 
 const allUsers = [{
