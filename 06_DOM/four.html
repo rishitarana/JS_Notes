@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 4</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName) {
+        const listitem = document.createElement('li'); // Correct tag name 'li'
+        listitem.innerHTML = langName; // Fix variable name and syntax
+        document.querySelector('.language').appendChild(listitem);
+        //wherever you want to append addchild
+    }
+    addLanguage("Java");
+    addLanguage("C++");
+</script>
+</html>
