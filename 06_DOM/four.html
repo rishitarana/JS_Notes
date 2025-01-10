@@ -19,5 +19,14 @@
     }
     addLanguage("Java");
     addLanguage("C++");
+
+    //in a optimized way add a list item
+    function addOptiLanguage(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addOptiLanguage('Python')
 </script>
 </html>
