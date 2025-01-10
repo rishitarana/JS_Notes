@@ -12,8 +12,8 @@
 </body>
 <script>
     function addLanguage(langName) {
-        const listitem = document.createElement('li'); // Correct tag name 'li'
-        listitem.innerHTML = langName; // Fix variable name and syntax
+        const listitem = document.createElement('li'); 
+        listitem.innerHTML = langName; 
         document.querySelector('.language').appendChild(listitem);
         //wherever you want to append addchild
     }
@@ -21,6 +21,8 @@
     addLanguage("C++");
 
     //in a optimized way add a list item
+    //no need to traverse whole tree
+    //innerHTML - traverse tree in appendchild that problem is solved
     function addOptiLanguage(langName){
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
@@ -28,5 +30,20 @@
 
     }
     addOptiLanguage('Python')
+
+    //edit
+    const secondLang = document.querySelector("li:nth-child(2)")
+    // secondLang.innerHTML = "Mojo"
+    const newli = document.createElement('li')
+    newli.textContent = "Mojo"
+    secondLang.replaceWith(newli)
+
+    //edit
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+    //remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
 </script>
 </html>
